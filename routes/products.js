@@ -20,7 +20,7 @@ router.get('/:id', async (req, res) => {
 });
 
 
-router.post('/porducts', async (req, res) => {
+router.post('/', async (req, res) => {
    const schema = {
        name: 'string',
        brand: 'string',
